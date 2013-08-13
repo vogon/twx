@@ -1,0 +1,25 @@
+text
+====
+
+pictures
+========
+- pic.twitter.com PNG munging
+	- does it strip out text sections?
+		- if not, jam everything into a text section (boring)
+	- does it ever re-encode PNGs to JPEG?  when?
+		- if not, pack everything into PNG image data
+		- if so, pack everything into JPEG image data
+	- does it ever re-encode JPEGs at a lower q level?  when?
+		- if not, choose q=1.00 and a lazy ARGB encoding
+		- if so, research encodings that are robust to JPEG processing
+
+video
+=====
+- using a non-official vine client: this, like, hella violates TOS, right?
+- how much entropy can we store in the video information of MPEG 4?
+- how much entropy can we store in the audio information of MPEG 4?
+
+media-agnostic
+==============
+- write a multi-part unpacker
+- write a spec for porting's sake
