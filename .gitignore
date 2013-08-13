@@ -16,3 +16,7 @@ tmp
 .yardoc
 _yardoc
 doc/
+
+# image files, most of which will be generated
+*.png
+*.jpg

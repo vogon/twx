@@ -5,6 +5,7 @@ pictures
 ========
 - pic.twitter.com PNG munging
 	- does it strip out text sections?
+		+ it does (per experiments w/ png-text-sizetest.rb)
 		- if not, jam everything into a text section (boring)
 	- does it ever re-encode PNGs to JPEG?  when?
 		- if not, pack everything into PNG image data
